@@ -1,0 +1,189 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 50%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header{
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: rgb(95,192,205);
+    width: 100%;
+    position: relative;
+    font-size: 2em;
+    font-family: 黑体-繁;
+}
+.lctimg{
+    background-image: url("images/task5-2_03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 2em;
+    top: 0.8em;
+    padding-bottom: 2em;
+    width: 2em;
+}
+.proj{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(85,168,179);
+    margin: 0 35%;
+    border-radius: 0.5em;
+}
+.proj1{
+    width:50%;
+
+}
+.proj2{
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    z-index: 1;
+    width: 50%;
+    padding: 0.5em 0;
+}
+.opt{
+    width: 100%;
+    border-bottom: 0.1em solid #cccccc;
+    border-width: thin;
+    padding: 1em 0;
+    font-size: 2em;
+    font-family: 黑体-繁;
+    color: #cccccc;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.opt1,.opt2{
+    border-right: 0.1em solid #cccccc;
+    border-width: thin;
+    width:33.33%;
+    position: relative;
+}
+.opt3{
+    width: 33.33%;
+    position: relative;
+}
+img{
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+.cont{
+    border-bottom: 0.1em solid #cccccc;
+    border-width: thin;
+}
+.time{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.time1{
+    background-image: url("images/task5-2_11.png");
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 2em;
+    margin: 2em 1em 2em 2em;
+}
+.time2{
+    font-size: 2em;
+    font-family: 黑体-繁;
+    color: #999999;
+}
+.date{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.date1{
+    width: 11em;
+    margin: 0 1em 0 2.5em;
+    font-size: 2em;
+    font-family: 黑体-繁;
+}
+.date2{
+    font-size: 2em;
+    color: red;
+    margin-right: 1em;
+}
+.lct{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lct1{
+    background-image: url("images/task5-2_15.png");
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 2em;
+    margin: 2em 1em 2em 2em;
+}
+.lct2{
+    font-size: 2em;
+    font-family: 黑体-繁;
+    color: #999999;
+}
+.footer{
+    background-color: #FFFFFF;
+    font-size: 2em;
+    font-family: 黑体-繁;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 3.5em;
+}
+.home1{
+    background-image: url("images/task5-2_22.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.4em;
+    height: 2.4em;
+}
+.home2{
+    color: rgb(95,192,205);
+}
+.memb{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-right: 3.5em;
+}
+.memb1{
+    background-image: url("images/task5-2_19.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.4em;
+    height: 2.4em;
+}
+.memb2{
+    color: #999999;
+}
+.edit{
+    background-color: rgb(95,192,205);
+    border-radius:50%;
+    width:3.5em;
+    height: 3.5em;
+    overflow: hidden;
+    text-align: center;
+    z-index: -1;
+    position: relative;
+}
